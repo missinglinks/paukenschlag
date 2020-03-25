@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "Paukenschlag",
+    "version": "1.0",
+
+    "description": "Makes visiting news sites much more exciting",
+
+    "content_scripts": [
+        {
+            "matches": ["*://*.lvz.de/*"],
+            "js": ["paukenschlag.js"]
+        }
+    ]
+}
